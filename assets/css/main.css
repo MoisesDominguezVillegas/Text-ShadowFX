@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+:root{
+    --colorBody: #000;
+    --colorTexto:#222;
+    --colorTextoHover: #FFF;
+    --colorTextoHover2: #ff0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--colorBody);
+}
+
+h1{
+    font-family: 'Open Sans';
+    text-align: center;
+    line-height: 100vh;
+    color:var(--colorTexto);
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+h1:hover{
+    color: var(--colorTextoHover);
+    text-shadow: 0 0 .1rem var(--colorTextoHover),
+                 0 0 .2rem var(--colorTextoHover),
+                 0 0 .4rem var(--colorTextoHover2),
+                 0 0 .8rem var(--colorTextoHover),
+                 0 0 12rem var(--colorTextoHover);
+
+}
